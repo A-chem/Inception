@@ -2,8 +2,7 @@
 
 set -e
 
-DB_PASSWORD=$(cat /run/secrets/db_password)
-ROOT_PASSWORD=$(cat /run/secrets/db_root_password)
+
 
 # Initialize database only first time
 
